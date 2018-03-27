@@ -5,11 +5,14 @@
     <title>Will Chiong</title>
     <meta name="description" content="Will Chiong">
   	<script src="https://cdn.jsdelivr.net/npm/vue@2.5.13/dist/vue.min.js"></script>
+  	<link rel="stylesheet" href="/styles/app.css">
   </head>
   <body>
 
-  <div id="app">
-    <h1>{{ greeting }}</h1>
+  <div id="app" v-cloak>
+    <h1
+    	class="app-greeting"
+    >{{ greeting }}</h1>
     <ul>
       <li>
         To learn more about Vue, visit

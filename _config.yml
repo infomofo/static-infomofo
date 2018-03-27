@@ -24,8 +24,9 @@ github_username:  infomofo
 
 # Build settings
 markdown: kramdown
-theme: minima
 plugins:
+sass:
+  style: compressed
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
