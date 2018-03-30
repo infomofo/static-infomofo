@@ -1,0 +1,12 @@
+{
+  "name": "infomofo.github.io",
+  "version": "1.0.0",
+  "description": "website for willchiong",
+  "main": "index.html",
+  "author": "Will C <will@infomofo.com>",
+  "license": "MIT",
+  "dependencies": {
+    "vue": "^2.5.16",
+    "vue-carousel": "^0.6.9"
+  }
+}
